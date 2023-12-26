@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-wrap {
+    display: flex;
+}
+
+.border{
+   color: aliceblue;
+   display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+}
+body {
+    background-color: burlywood;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+    color: aliceblue;
+    font-weight: 900;
+
+}
+
+.head-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header img {
+    width: 300px;
+    height: 450px;
+}
